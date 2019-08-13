@@ -1,0 +1,27 @@
+.navbar-brand{
+    background-color: #4aaaa5;
+    margin-left: 25%;
+    font-size:30px;
+}
+
+.name{
+    color: #ffffff;
+}
+
+header{
+    font-size: 24px;
+}
+
+ul{
+    margin-left:30%;
+}
+
+#profile{
+    width: 500px;
+    height: 400px;
+}
+
+img{
+    width: 300px;
+    height:300px;
+}
