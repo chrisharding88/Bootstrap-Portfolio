@@ -4,24 +4,70 @@
     font-size:30px;
 }
 
+body{
+    background: url("../images/floor-tile.png");
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
 .name{
     color: #ffffff;
 }
 
 header{
     font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #cccccc;   
+
 }
+
+.portfolio-header, .contact-header, .about-header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    border-bottom: 2px solid gray;
+    width: 45%;
+    padding:20px;
+
+}
+
 
 ul{
     margin-left:30%;
 }
 
 #profile{
-    width: 500px;
-    height: 400px;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 6%;
+    margin-left:15%;
+}
+
+.row{
+    margin-top: 2%;
 }
 
 img{
-    width: 300px;
-    height:300px;
+    width: 250px;
+    height:250px;
+}
+
+
+
+footer{
+    background-color: #666666;
+    text-align: center;
+    color: #ffffff;
+    padding: 40px;
+    border-top: 8px solid #4aaaa5;
+}
+
+.bio-box, .portfolio-box {
+    background-color: #ffffff;
+}
+
+.form-section{
+    width:100%;
+    margin-top:2%;
+    background-color: #ffffff;
+
 }
