@@ -1,3 +1,6 @@
+
+/* Main */
+
 .navbar-brand{
     background-color: #4aaaa5;
     margin-left: 25%;
@@ -7,7 +10,11 @@
 body{
     background: url("../images/floor-tile.png");
     font-family: Arial, Helvetica, sans-serif;
+}
 
+
+li{
+    padding: 15px;
 }
 
 .name{
@@ -70,4 +77,43 @@ footer{
     margin-top:2%;
     background-color: #ffffff;
 
+}
+
+/* Portfolio Page */
+
+.pic{
+    position: relative;
+    overflow: auto;
+    float: left;
+    width:274px;
+    
+}
+
+.pic img {
+    width:100%;
+    border: 0 none;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+.pic h3{
+    position: absolute;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: 300;
+    left: 10px;
+    bottom: 40px;
+    width: 93%;
+    padding: 10px;
+}
+
+/* Contact Page */
+
+
+button{
+    margin: 30px;
+    font-size: 20px;
 }
