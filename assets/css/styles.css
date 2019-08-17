@@ -32,6 +32,7 @@ header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 1px solid #cccccc;   
     margin-left: -10%;
+    background-color: #ffffff;
 }
 
 .portfolio-header, .contact-header, .about-header{
